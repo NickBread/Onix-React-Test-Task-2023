@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    font-family: 'Segoe UI', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 25px;
+    color: #FFF;
+    /*color: #000000FF;*/
+
+    line-height: 22px;
+    text-align: center;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.cookies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    width: 100%;
+    height: 67px;
+
+    background: #282828;
+    border-radius: 0;
+}
+
+.cookiesText {
+    width: 605px;
+    height: 23px;
+
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.cookiesButton {
+    width: 105px;
+    height: 35px;
+
+    background: #FFFF02;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    line-height: 22px;
+
+    color: #0B0B0B;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    width: 100%;
+    height: 61px;
+
+    background: #0B0B0B;
+    border-radius: 0;
+}
+
+.menuElement {
+    background-color: #FFFFFF00;
+    border: none;
+
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.socialButton {
+    background: #FFF;
+}
+
+.description {
+    width: 100%;
+    height: 100vh;
+
+    font-size: 115px;
+    line-height: 120px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: url("../images/background.png") no-repeat;
+    background-size: cover;
+}
