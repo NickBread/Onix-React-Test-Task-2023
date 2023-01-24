@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body {
@@ -16,31 +18,29 @@ body {
     font-size: 16px;
 }
 
-button {
-    cursor: pointer;
-}
-
 footer {
     display: flex;
     align-items: baseline;
-    justify-content: center;
+    justify-content: right;
     padding: 0 25px;
-    color: #FFF;
-    /*color: #000000FF;*/
 
     line-height: 22px;
     text-align: center;
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    color: #FFF;
 }
 
 h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+button {
+    cursor: pointer;
 }
 
 .container {
@@ -49,24 +49,19 @@ h1, h2, h3, h4 {
 }
 
 .cookies {
+    width: 100%;
+    height: 67px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 25px;
-
-    width: 100%;
-    height: 67px;
 
     background: #282828;
     border-radius: 0;
 }
 
 .cookiesText {
-    width: 605px;
-    height: 23px;
-
-    line-height: 22px;
-
     color: #FFFFFF;
 }
 
@@ -74,53 +69,42 @@ h1, h2, h3, h4 {
     width: 105px;
     height: 35px;
 
+    color: #0B0B0B;
+
     background: #FFFF02;
     border-radius: 50px;
     border: none;
-
-    font-style: normal;
-    line-height: 22px;
-
-    color: #0B0B0B;
 }
 
 .menu {
+    width: 100%;
+    height: 61px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 25px;
 
-    width: 100%;
-    height: 61px;
-
     background: #0B0B0B;
-    border-radius: 0;
 }
 
 .menuElement {
-    background-color: #FFFFFF00;
-    border: none;
-
-    font-size: 13px;
-    line-height: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FFF;
-}
 
-.socialButton {
-    background: #FFF;
+    background-color: #FFFFFF00;
+    border: none;
 }
 
 .description {
     width: 100%;
     height: 100vh;
 
-    font-size: 115px;
-    line-height: 120px;
-
     text-align: center;
 
+    font-size: 115px;
+    line-height: 120px;
     color: #FFFFFF;
 
     background: url("../images/background.png") no-repeat;
