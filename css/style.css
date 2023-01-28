@@ -60,6 +60,16 @@ button:hover {
     border: none;
 }
 
+.cookiesButton:hover {
+    /*color: #FFFF02;*/
+    color: #0B0B0B;
+    background: #FFF;
+}
+
+.cookiesButtonScript {
+
+}
+
 .menu {
     position: sticky;
     top: 0;
