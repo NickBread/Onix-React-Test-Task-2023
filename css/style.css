@@ -54,20 +54,14 @@ button:hover {
     height: 35px;
 
     color: #0B0B0B;
-
     background: #FFFF02;
     border-radius: 50px;
     border: none;
 }
 
 .cookiesButton:hover {
-    /*color: #FFFF02;*/
     color: #0B0B0B;
     background: #FFF;
-}
-
-.cookiesButtonScript {
-
 }
 
 .menu {
@@ -93,6 +87,16 @@ button:hover {
     border: none;
 }
 
+.socialButton {
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.socialButton:hover {
+    background-color: #FFFF02;
+}
+
 .descriptionContainer {
     height: calc(100vh - 200px);
     display: flex;
@@ -101,7 +105,7 @@ button:hover {
 }
 
 .description {
-    /*margin: auto 0;*/
+    margin: auto 0;
     padding: 0 25px;
 
     text-align: center;
@@ -110,7 +114,7 @@ button:hover {
     color: #FFF;
 }
 
-.mainFooter {
+.authorSign {
     display: flex;
     align-items: baseline;
     justify-content: left;
